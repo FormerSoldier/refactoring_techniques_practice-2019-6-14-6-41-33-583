@@ -32,7 +32,7 @@ public class OwingPrinterTest {
     }*/
 
     @Test
-    public void printOwing1() {
+    public void printOwing() {
         OwingPrinter owingPrinter = new OwingPrinter();
         owingPrinter.printOwing("TYG", new ArrayList<>(Arrays.asList(new Order[]{new Order(1.0), new Order(2.0), new Order(10.0)})));
 
